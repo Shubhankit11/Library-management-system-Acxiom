@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+  color: #550404;
+}
+
+.topbar {
+  background: #23014d;
+  color: #fff;
+  padding: 12px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding: 16px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input, select, textarea, button {
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.field {
+  min-width: 200px;
+  flex: 1;
+}
+
+button {
+  background: #1f3a5f;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #666;
+}
+
+.error {
+  color: #ff0331;
+  margin-top: 8px;
+}
+
+.success {
+  color: #067d2c;
+  margin-top: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.nav a {
+  margin-right: 8px;
+  text-decoration: none;
+}
