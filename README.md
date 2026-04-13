@@ -49,6 +49,4 @@ Instructions
 	An error message to be thrown on the page if user does not enter all details and confirms the form.
 	User Management
 	One of the options new user or existing to be selected. By default - new.
-	Name is mandatory
-	Incase of any assumptions please highlight
-	If not clear - please clarify 
+	
