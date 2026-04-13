@@ -161,7 +161,7 @@ function renderLogin(error = "") {
         </div>
         <button type="submit">Login</button>
         ${error ? `<div class="error">${error}</div>` : ""}
-        <div class="success">Use Shubhankit/admin123 or user/user123</div>
+        <div class="success">Use Shubhankit/admin123 or user/user123 ot user1/user1234</div>
       </form>
     </div>
   `;
